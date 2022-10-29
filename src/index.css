@@ -6,9 +6,10 @@
   font-family: 'Inter', sans-serif;
 }
 body{
-  background-color:black;
-  color: white;
+  background-color: bonewhite;
+  color: black;
   margin: 0%;
+  padding: 0%;
   height: 100%;
   
   
@@ -17,7 +18,7 @@ body{
   display: flex;
   width: 100%;
   align-items: center;
-  background-color: black;
+  background-color: white;
   position: fixed;
 }
 .Title{margin-left: 10%;}
@@ -31,8 +32,10 @@ body{
   margin: 10px;
 }
 .Jeger{
-  padding: 20%;
-  height: 60%;
+  padding-top: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
    
 }
 .Myname{
@@ -102,6 +105,12 @@ margin: 10%;}
   align-self: center;
 }
 
+.Øverpå{
+  
+  display: grid;
+  grid-template-columns: 200px 200px;
+  align-self: center;
+}
 
 I{padding: 5%;
 font-size: 5vw;
