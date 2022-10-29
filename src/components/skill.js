@@ -7,8 +7,9 @@ export default function Skill(props){
     <div >
             
           
-                <div className="Skill" >
+                <div className="Skill"  >
                     <i class={props.classtext}></i>
+                    
             <div>
                 <h2 className="Skilltext">{props.text}</h2>
                 

@@ -5,8 +5,8 @@ export default function Contactme(props){
     
     return(
         <div className="stuff">
-        <i class={props.contactnameclass}></i>
-        <h2>{props.contactname}</h2>
+        <i class={props.contactnameclass} href={props.link}></i>
+        <a href={props.link}>{props.contactname}</a>
         </div>
  
     )

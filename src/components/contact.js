@@ -3,19 +3,19 @@ import Contactme from "./contactme"
 export default function Contact(){
     return(
         <div className="contactme">
-    <div >
-Want to work together? 
+    <div style={{fontSize:25, padding:5}} >
+Vil du arbejde sammen med mig?
   
     </div>
     <div>
-        <div>
-            feel free to reach out to me on any of these platforms
+        <div style={{fontSize:25, padding:5}}>
+            Skriv til mig her, så snakker vi om det!
         </div>
         <div className="contacts">
-        <Contactme contactname="facebook" contactnameclass="devicon-facebook-plain"/>
-        <Contactme contactname="github" contactnameclass="devicon-github-original"/>
-        <Contactme contactname="gmail" contactnameclass="devicon-google-plain"/>
-        <Contactme contactname="linkedin" contactnameclass="devicon-linkedin-plain"/>
+        <Contactme contactname="Facebook" contactnameclass="devicon-facebook-plain colored" link="https://www.facebook.com/victor.justesen/"/>
+        <Contactme contactname="Github" contactnameclass="devicon-github-original " link="https://github.com/VictorJustesen" />
+        <Contactme contactname="Gmail" contactnameclass="devicon-google-plain colored" link="mailto:gingerlord.and.co@egmail.com"/>
+        <Contactme contactname="Linkedin" contactnameclass="devicon-linkedin-plain colored" link="https://www.linkedin.com/in/victor-skaarup-justesen-5266281b8/"/>
         </div>
     </div>
 </div>

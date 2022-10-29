@@ -5,6 +5,8 @@ import Work from "./work.js"
 
 export default function Skills(){
     return(
+        <div>
+            
     <div className="Skills">
         <div>
         <div className="Jegkan"> 
@@ -16,8 +18,9 @@ export default function Skills(){
             <Skill text="CSS" classtext="devicon-css3-plain colored" />
             <Skill text="Git" classtext="devicon-git-plain colored" />
             <Skill text="JavaScript" classtext="devicon-javascript-plain colored" />
+           
              <Skill text="Java" classtext="devicon-java-plain colored" />
-             
+          
              <Skill text="Github" classtext="devicon-github-original colored" />
             </div>
             <div style={{fontSize:30}}>Hvad jeg træner</div>
@@ -32,12 +35,13 @@ export default function Skills(){
         <div className="jobsogtekst">    
             <div className="Jobtitel">Noget af det jeg har lavet</div>
             <div className="Jobs">
+              
                 <Work jobname="job1" 
                 description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 ... Ipsum available, but the majority have suffered alteration in some form"/>
-                <Work jobname="job1" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                ... Ipsum available, but the majority have suffered alteration in some form"/>
-                <Work jobname="job1" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+               
+                <Work jobname="job1" glink="https://github.com/VictorJustesen/portfolio-Victor-Justesen" tags="JavaScript, React, CSS, HTML" description="Denne hjemmeside"/>
+                <Work jobname="job1" tags="Java, python, matematik" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 ... Ipsum available, but the majority have suffered alteration in some form"/>
                 <Work jobname="job1" description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 ... Ipsum available, but the majority have suffered alteration in some form"/>
@@ -45,6 +49,7 @@ export default function Skills(){
             </div>
         </div>
 
+    </div>
     </div>
 
 

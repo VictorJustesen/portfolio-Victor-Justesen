@@ -3,10 +3,10 @@ import React from "react"
 export default function Makeownsite(){
     return(
     <div className="Makeownsite">
-   <h1>leder du efter studenter medhjælper med flair for web løsninger? </h1>
-   <h2>Lad mig hjælpe dig!</h2>
+   <h1 style={{fontSize:40}} >leder du efter studenter medhjælper med flair for web løsninger? </h1>
+   <h2 style={{fontSize:40}}>Lad mig hjælpe dig!</h2>
    <div>
-        <div>
+        <div style={{fontSize:25}}>
             <h3>Jeg studerer software teknologi på DTU,
                 og elsker alt med nuller og et taller</h3>
             <h3>Jeg leder efter et studiejob hvor jeg kan arbejde 10-20 timer om ugen</h3>

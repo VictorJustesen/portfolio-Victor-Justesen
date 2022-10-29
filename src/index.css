@@ -32,10 +32,12 @@ body{
   margin: 10px;
 }
 .Jeger{
-  padding-top: 50px;
+  padding-top: 10vw;
  display: flex;
  flex-direction: column;
  align-items: center;
+ width: 100vw;
+ height: 70vw;
    
 }
 .Myname{
@@ -50,6 +52,7 @@ body{
 .Jegernørd{}
 
 .Makeownsite{
+  height: 65vw;
   align-self: center;
   margin: auto;
   align-content: center;
@@ -65,18 +68,18 @@ margin: 10%;}
 .Metitel{text-align: center;}
 
 .Me{
-  flex-grow: 1;
-  padding-left: 5%;
-  
+
+  width: 2px;
+  max-height: 30vw;
   min-width: 500px;
   max-width: 600px;
 }
 
 .Aboutme{
   display: flex;
-  flex-direction: row;
-  
-  min-width: 100px;
+  flex-direction: column;
+  align-items: center;
+  min-width: 50px;
 }
 
 .Aboutmetext{padding: 2.5%;
@@ -85,17 +88,35 @@ margin: 10%;}
 }
 
 .Skills{display: flex; ;
-  margin-top: 20%;
-  margin-bottom: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 .Skills > div {margin: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
+  text-align: center;
  
 }
 
+
 .Skills > div > div{align-self: center;}
+
+
+
+.Skills .Job:hover{
+    
+  transform: scale(1.2) ;
+  transition-duration: 0.75s;
+  }
+
+.Skills .Skill:hover{
+  
+transform: scale(1.2) ;
+transition-duration: 0.75s;
+
+
+}
 
 
 .Detjegkan{
@@ -116,9 +137,10 @@ I{padding: 5%;
 font-size: 5vw;
 align-self: center;}
 
-.Skill{display: flex;}
+.Skill{display: flex; align-items: center;}
 
-.Skilltext{font-size: 1.5vw;}
+.Skilltext{font-size: 1.2vw;
+}
 
 .Jobs{display: grid;
 grid-template-columns: 300px 300px;
@@ -134,15 +156,18 @@ margin-bottom: 20px;}
 
 .buttons{
   display: flex;
+  
+ 
 }
 
-.buttons > button{
+.buttons > a{
   border-radius: 6px;
   margin: auto;
+  flex-direction: row;
 }
 
-.contacts{display: grid ;
-  grid-template-columns: 100px 100px; align-items: center; justify-content: center;}
+.contacts{display: flex ;
+  flex-direction: row; align-items: center; justify-content: center;}
 
 
 
@@ -156,6 +181,7 @@ flex-direction: column;}
   justify-content: center;
   align-items: center;
   display: flex;
+  padding-left: 10px;
   
 }
 
@@ -163,3 +189,12 @@ flex-direction: column;}
 justify-content: center;
 align-self: center;
 display: flex;}
+
+.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}

@@ -8,12 +8,10 @@ export default function Aboutme(){
         <img className="Me" src={require("../img/Me.jpg")} /> 
         <div className="Aboutmetext">
             <h2>Jeg studerer Software teknologi som diplom ingienør på DTU   
-            Jeg brænder for at lave websider, apps, og andre virtuelle løsninger 
-            Udover at fokusere på mine studier laver jeg websider for andre 
-            Jeg stræber efter at gøre dem  bæredygtige, pæne, spændende, og ikke mindst prisvenlige
- 
-            Jeg er agil og ædrat, kan lave stort eller småt. Jeg sætter ingen krav til kunden, 
-                 men sætter høje standerder for mig selv.</h2>
+            Jeg har stor passion for at lave websider, apps, og andre IT løsninger  
+            Lige nu er jeg bedst til web development, men jeg kan lidt af det hele, og jeg lærer hurtigt.
+            hvis du scroller ned kan du se nogle af de teknologier jeg bedst kan lide at arbejde med og nogle af de projekter jeg har lavet
+            Jeg har arbejdet med meget forskelligt men herunder er et udpluk af dem jeg er bedst til</h2>
             </div>
     </div>
     
