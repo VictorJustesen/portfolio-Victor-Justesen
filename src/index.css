@@ -1,0 +1,227 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  
+}
+*:not(i){
+  font-family: 'Inter', sans-serif;
+}
+body{
+  background-color:black;
+  color: white;
+  margin: 0%;
+  height: 100%;
+  
+}
+.Header{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  position: fixed;
+}
+.Title{margin-left: 10%;}
+.HeaderSection{
+  position: absolute;
+  display: flex;
+  right: 50px;
+}
+
+.HeaderSection > h2{
+  margin: 10px;
+}
+.Jeger{
+  padding: 20%;
+  height: 60%;
+   
+}
+.Myname{
+  text-align: center;
+}
+
+.Name{
+  text-align: center;
+  font-size: 60px;
+}
+.Jegernørd{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width:80%;
+  margin-left: 32.5%;
+}
+
+.Jegernørd > h2{
+margin-right: 10px;
+white-space: nowrap;
+}
+
+.Makeownsite{
+  align-self: center;
+  margin: auto;
+  align-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+
+}
+
+.Makeownsite > div{ display:flex;
+margin: 10%;}
+.Hjemmeside{
+  
+  aspect-ratio: 2/1;
+  border-radius: 10px;
+  background-color: white;
+  margin: auto;
+
+}
+
+.Miniheader{
+  width: 100%;
+  background-color: grey;
+  height: 15%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.Miniheader > div {
+  border-radius:50%;
+  height: 50%;
+  width: 3.75%;
+  margin: 2px;
+  color: transparent;
+  
+}
+
+.Miniheader > div:hover {
+  border-radius:50%;
+  height: 50%;
+  width: 3.75%;
+  margin: 2px;
+  color: black;
+  text-align: center;
+  
+  
+}
+
+.Red{
+  background-color: red;
+}
+.Yellow{
+  background-color: yellow;
+}
+.Green{
+  background-color: Green;
+}
+
+
+
+.Colorbutton{
+  background-color: black;
+  height: 30%;
+  width: 30%;
+  border-radius: 5%;
+  
+}
+.Minhjemmeside{
+  margin-left: 13%;
+}
+
+.Metitel{text-align: center;}
+
+.Me{
+  flex-grow: 1;
+  padding-left: 5%;
+  
+  min-width: 500px;
+  max-width: 600px;
+}
+
+.Aboutme{
+  display: flex;
+  flex-direction: row;
+  
+  min-width: 100px;
+}
+
+.Aboutmetext{padding: 2.5%;
+  flex-grow: 1;
+  min-width: 250px;
+}
+
+.Skills{display: flex; ;
+  margin-top: 20%;
+  margin-bottom: 20%;
+}
+.Skills > div {margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.Skills > div > div{align-self: center;}
+
+
+.Detjegkan{
+  
+  display: grid;
+  grid-template-columns: 200px 200px;
+  align-self: center;
+}
+
+
+I{padding: 5%;
+font-size: 5vw;
+align-self: center;}
+
+.Skill{display: flex;}
+
+.Skilltext{font-size: 1.5vw;}
+
+.Jobs{display: grid;
+grid-template-columns: 300px 300px;
+grid-gap:20px}
+
+.Job{border: 1px solid red;
+  height: 150px;
+  padding: 10px;
+}
+.Jobtitel{font-size: 25px;
+margin-bottom: 20px;}
+.jobname{align-self: center;}
+
+.buttons{
+  display: flex;
+}
+
+.buttons > button{
+  border-radius: 6px;
+  margin: auto;
+}
+
+.contacts{display: grid ;
+  grid-template-columns: 100px 100px; align-items: center; justify-content: center;}
+
+
+
+.contactme{display: flex;
+flex-direction: column;}
+.contactme > div{
+  align-self: center;
+}
+
+.stuff > *{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+.jobname{align-items: center;
+justify-content: center;
+align-self: center;
+display: flex;}
